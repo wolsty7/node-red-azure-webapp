@@ -90,21 +90,21 @@ module.exports = {
     // -----------------
     // To password protect the Node-RED editor and admin API, the following
     // property can be used. See http://nodered.org/docs/security.html for details.
-    //adminAuth: {
-    //    type: "credentials",
-    //    users: [{
-    //        username: "admin",
-    //        password: "$2a$08$zZWtXTja0fB1pzD4sHCMyOCMYz2Z6dNbM6tl8sJogENOMcxWV9DN.",
-    //        permissions: "*"
-    //    }]
-    //},
+    adminAuth: {
+       type: "credentials",
+       users: [{
+           username: "admin",
+           password: "$2b$10$zXwgkM/hPwx6GKb0yg2hWuJ5x.Li7NZLALz1P6D7Vm8.RB5WM27py",
+           permissions: "*"
+       }]
+    },
 
     // To password protect the node-defined HTTP endpoints (httpNodeRoot), or
     // the static content (httpStatic), the following properties can be used.
     // The pass field is a bcrypt hash of the password.
     // See http://nodered.org/docs/security.html#generating-the-password-hash
-    //httpNodeAuth: {user:"user",pass:"$2a$08$zZWtXTja0fB1pzD4sHCMyOCMYz2Z6dNbM6tl8sJogENOMcxWV9DN."},
-    //httpStaticAuth: {user:"user",pass:"$2a$08$zZWtXTja0fB1pzD4sHCMyOCMYz2Z6dNbM6tl8sJogENOMcxWV9DN."},
+    httpNodeAuth: {user:"user1",pass:"$2a$08$zZWtXTja0fB1pzD4sHCMyOCMYz2Z6dNbM6tl8sJogENOMcxWV9DN."},
+    httpStaticAuth: {user:"user2",pass:"$2a$08$zZWtXTja0fB1pzD4sHCMyOCMYz2Z6dNbM6tl8sJogENOMcxWV9DN."},
 
     // The following property can be used to enable HTTPS
     // See http://nodejs.org/api/https.html#https_https_createserver_options_requestlistener
