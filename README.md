@@ -14,7 +14,7 @@ Or...
     ![Web sockets](./_images/websockets.png)
 
     **Figure 1** Activate Web sockets
-1. Configure the deployment options as an *External repository* pointing to [https://github.com/jmservera/node-red-azure-webapp.git](https://github.com/jmservera/node-red-azure-webapp.git)
+1. Configure the deployment options as an *External repository* pointing to [https://github.com/wolsty7/node-red-azure-webapp.git](https://github.com/wolsty7/node-red-azure-webapp.git)
 
     ![External repo](./_images/externalrepo.png)
 
