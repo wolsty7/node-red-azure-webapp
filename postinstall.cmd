@@ -8,3 +8,4 @@ npm install node-red-dashboard node-red-contrib-ui_list node-red-contrib-azure-i
      popd 
      copy npm_.cmd npm.cmd /y
 )
+sudo journalctl -f -u nodered -o cat
