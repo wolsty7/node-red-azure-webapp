@@ -43,7 +43,7 @@
     },
     "repoURL": {
       "type": "string",
-      "defaultValue": "https://github.com/jmservera/node-red-azure-webapp.git",
+      "defaultValue": "https://github.com/wolsty7/node-red-azure-webapp.git",
       "metadata": {
         "description": "The URL for the GitHub repository that contains the project to deploy."
       }
@@ -57,7 +57,7 @@
     },
     "nodeJsVersion":{
       "type": "string",
-      "defaultValue": "8.9.4",
+      "defaultValue": "10.15.3",
       "metadata": {
         "description": "Nodejs version, make sure that the App Service supports the version you set here."
       }
