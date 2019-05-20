@@ -57,7 +57,7 @@
     },
     "nodeJsVersion":{
       "type": "string",
-      "defaultValue": "10.15.3",
+      "defaultValue": "10.15.2",
       "metadata": {
         "description": "Nodejs version, make sure that the App Service supports the version you set here."
       }
