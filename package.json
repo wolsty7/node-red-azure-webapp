@@ -4,7 +4,7 @@
   "description": "A webapp wrapper for running node-red in an Azure Web App",
   "main": "server.js",
   "dependencies": {
-    "node-red": "0.20.x"
+    "node-red": "0.20.x",
     "NodeRedIoTHub": "MichelCollard/NodeRedIoTHub#master"
   },
   "engines": {
