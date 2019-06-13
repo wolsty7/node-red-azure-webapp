@@ -5,6 +5,7 @@
   "main": "server.js",
   "dependencies": {
     "node-red": "0.20.x"
+    "NodeRedIoTHub": "MichelCollard/NodeRedIoTHub#master"
   },
   "engines": {
     "node":"10.15.2"
