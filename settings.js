@@ -3,7 +3,7 @@ module.exports = {
     httpNodeRoot: "/",
     ui: { path: "ui" },
     
-    userDir:"/home/nodered/.node-red/",
+    userDir:"/home/site/nodered/.node-red/",
     // the tcp port that the Node-RED web server is listening on
     uiPort: process.env.PORT || 8000,
 
@@ -190,14 +190,9 @@ module.exports = {
             audit: false
         }
     },
-    swagger: {
-        "template": {
-          "swagger": "2.0",
-          "info": {
-            "title": "Node-RED in Azure API",
-            "version": "0.0.1"
-          }
-        }
-      }
-
+    editorTheme: {
+       projects: {
+           enabled: true
+       }
+    }
 };
