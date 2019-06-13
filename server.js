@@ -2,7 +2,8 @@
 var express = require("express");
 var RED=require('node-red');
 var app= express();
- var http=require('http');
+process.env.Path =  'D:\\Program Files\\Git\\cmd;D:\\Program Files\\Git\\usr\\bin;' + process.env.Path;
+var http=require('http');
 
 const PORT=process.env.PORT||8000;
 
